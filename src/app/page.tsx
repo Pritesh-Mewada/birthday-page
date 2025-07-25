@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useState, Suspense } from "react";
 import { useSearchParams } from 'next/navigation';
 
 function getTimeSince(date: Date): { years: number; days: number; hours: number; minutes: number; seconds: number } {
@@ -51,7 +51,7 @@ function FallingStars({ count = 40 }: { count?: number }) {
   return <div className="falling-stars">{stars}</div>;
 }
 
-export default function Home() {
+function HomeContent() {
   const searchParams = useSearchParams();
   const name = searchParams.get('name') || 'Your name';
   const birthdateParam = searchParams.get('birthdate') || '1990-08-17';
@@ -159,5 +159,13 @@ export default function Home() {
         </div>
       </div>
     </div>
+  );
+}
+
+export default function Home() {
+  return (
+    <Suspense>
+      <HomeContent />
+    </Suspense>
   );
 }
