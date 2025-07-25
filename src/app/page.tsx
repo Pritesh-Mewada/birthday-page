@@ -115,24 +115,24 @@ function HomeContent() {
         <div style={{ color: "#fff", fontWeight: "bold", letterSpacing: 2, marginBottom: typeof window !== 'undefined' && window.innerWidth < 600 ? 12 : 24, fontSize: typeof window !== 'undefined' && window.innerWidth < 600 ? 14 : 18 }}>TIME SINCE BIRTH:</div>
         <div style={{ display: "flex", flexWrap: typeof window !== 'undefined' && window.innerWidth < 600 ? 'wrap' : 'nowrap', gap: typeof window !== 'undefined' && window.innerWidth < 600 ? 12 : 32, marginBottom: typeof window !== 'undefined' && window.innerWidth < 600 ? 8 : 16, justifyContent: 'center' }}>
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-            <div style={{ fontSize: typeof window !== 'undefined' && window.innerWidth < 600 ? 28 : 64, background: "#fff", color: "#333", borderRadius: 8, padding: typeof window !== 'undefined' && window.innerWidth < 600 ? '0 8px' : '0 24px', minWidth: typeof window !== 'undefined' && window.innerWidth < 600 ? 28 : 90, textAlign: "center", fontFamily: "monospace", boxShadow: "0 2px 8px rgba(0,0,0,0.1)" }}>{time.years}</div>
-            <div style={{ color: "#fff", marginTop: 8, fontSize: 20 }}>Years</div>
+            <div style={{ fontSize: typeof window !== 'undefined' && window.innerWidth < 600 ? 28 : 64, background: "#fff", color: "#333", borderRadius: 8, padding: typeof window !== 'undefined' && window.innerWidth < 600 ? '0 8px' : '0 24px', minWidth: typeof window !== 'undefined' && window.innerWidth < 600 ? 18 : 90, textAlign: "center", fontFamily: "monospace", boxShadow: "0 2px 8px rgba(0,0,0,0.1)" }}>{time.years}</div>
+            <div style={{ color: "#fff", marginTop: 8, fontSize: typeof window !== 'undefined' && window.innerWidth < 600 ? 7 : 20 }}>Years</div>
           </div>
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-            <div style={{ fontSize: typeof window !== 'undefined' && window.innerWidth < 600 ? 28 : 64, background: "#fff", color: "#333", borderRadius: 8, padding: typeof window !== 'undefined' && window.innerWidth < 600 ? '0 8px' : '0 24px', minWidth: typeof window !== 'undefined' && window.innerWidth < 600 ? 28 : 90, textAlign: "center", fontFamily: "monospace", boxShadow: "0 2px 8px rgba(0,0,0,0.1)" }}>{time.days}</div>
-            <div style={{ color: "#fff", marginTop: 8, fontSize: 20 }}>Days</div>
+            <div style={{ fontSize: typeof window !== 'undefined' && window.innerWidth < 600 ? 28 : 64, background: "#fff", color: "#333", borderRadius: 8, padding: typeof window !== 'undefined' && window.innerWidth < 600 ? '0 8px' : '0 24px', minWidth: typeof window !== 'undefined' && window.innerWidth < 600 ? 18 : 90, textAlign: "center", fontFamily: "monospace", boxShadow: "0 2px 8px rgba(0,0,0,0.1)" }}>{time.days}</div>
+            <div style={{ color: "#fff", marginTop: 8, fontSize: typeof window !== 'undefined' && window.innerWidth < 600 ? 7 : 20 }}>Days</div>
           </div>
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-            <div style={{ fontSize: typeof window !== 'undefined' && window.innerWidth < 600 ? 28 : 64, background: "#fff", color: "#333", borderRadius: 8, padding: typeof window !== 'undefined' && window.innerWidth < 600 ? '0 8px' : '0 24px', minWidth: typeof window !== 'undefined' && window.innerWidth < 600 ? 28 : 90, textAlign: "center", fontFamily: "monospace", boxShadow: "0 2px 8px rgba(0,0,0,0.1)" }}>{time.hours}</div>
-            <div style={{ color: "#fff", marginTop: 8, fontSize: 20 }}>Hours</div>
+            <div style={{ fontSize: typeof window !== 'undefined' && window.innerWidth < 600 ? 28 : 64, background: "#fff", color: "#333", borderRadius: 8, padding: typeof window !== 'undefined' && window.innerWidth < 600 ? '0 8px' : '0 24px', minWidth: typeof window !== 'undefined' && window.innerWidth < 600 ? 18 : 90, textAlign: "center", fontFamily: "monospace", boxShadow: "0 2px 8px rgba(0,0,0,0.1)" }}>{time.hours}</div>
+            <div style={{ color: "#fff", marginTop: 8, fontSize: typeof window !== 'undefined' && window.innerWidth < 600 ? 7 : 20 }}>Hours</div>
           </div>
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-            <div style={{ fontSize: typeof window !== 'undefined' && window.innerWidth < 600 ? 28 : 64, background: "#fff", color: "#333", borderRadius: 8, padding: typeof window !== 'undefined' && window.innerWidth < 600 ? '0 8px' : '0 24px', minWidth: typeof window !== 'undefined' && window.innerWidth < 600 ? 28 : 90, textAlign: "center", fontFamily: "monospace", boxShadow: "0 2px 8px rgba(0,0,0,0.1)" }}>{time.minutes}</div>
-            <div style={{ color: "#fff", marginTop: 8, fontSize: 20 }}>Minutes</div>
+            <div style={{ fontSize: typeof window !== 'undefined' && window.innerWidth < 600 ? 28 : 64, background: "#fff", color: "#333", borderRadius: 8, padding: typeof window !== 'undefined' && window.innerWidth < 600 ? '0 8px' : '0 24px', minWidth: typeof window !== 'undefined' && window.innerWidth < 600 ? 18 : 90, textAlign: "center", fontFamily: "monospace", boxShadow: "0 2px 8px rgba(0,0,0,0.1)" }}>{time.minutes}</div>
+            <div style={{ color: "#fff", marginTop: 8, fontSize: typeof window !== 'undefined' && window.innerWidth < 600 ? 7 : 20 }}>Minutes</div>
           </div>
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-            <div style={{ fontSize: typeof window !== 'undefined' && window.innerWidth < 600 ? 28 : 64, background: "#fff", color: "#333", borderRadius: 8, padding: typeof window !== 'undefined' && window.innerWidth < 600 ? '0 8px' : '0 24px', minWidth: typeof window !== 'undefined' && window.innerWidth < 600 ? 28 : 90, textAlign: "center", fontFamily: "monospace", boxShadow: "0 2px 8px rgba(0,0,0,0.1)" }}>{time.seconds}</div>
-            <div style={{ color: "#fff", marginTop: 8, fontSize: 20 }}>Seconds</div>
+            <div style={{ fontSize: typeof window !== 'undefined' && window.innerWidth < 600 ? 28 : 64, background: "#fff", color: "#333", borderRadius: 8, padding: typeof window !== 'undefined' && window.innerWidth < 600 ? '0 8px' : '0 24px', minWidth: typeof window !== 'undefined' && window.innerWidth < 600 ? 18 : 90, textAlign: "center", fontFamily: "monospace", boxShadow: "0 2px 8px rgba(0,0,0,0.1)" }}>{time.seconds}</div>
+            <div style={{ color: "#fff", marginTop: 8, fontSize: typeof window !== 'undefined' && window.innerWidth < 600 ? 7 : 20 }}>Seconds</div>
           </div>
         </div>
         <div style={{ color: "#fff", fontSize: typeof window !== 'undefined' && window.innerWidth < 600 ? 14 : 24, marginTop: typeof window !== 'undefined' && window.innerWidth < 600 ? 12 : 24 }}>Your Age: <span style={{ fontWeight: "bold" }}>{time.years}</span> years</div>
@@ -141,20 +141,20 @@ function HomeContent() {
         <div style={{ color: "#fff", fontWeight: "bold", letterSpacing: 2, marginTop: typeof window !== 'undefined' && window.innerWidth < 600 ? 24 : 48, marginBottom: typeof window !== 'undefined' && window.innerWidth < 600 ? 12 : 24, fontSize: typeof window !== 'undefined' && window.innerWidth < 600 ? 14 : 18 }}>NEXT BIRTHDAY IN:</div>
         <div style={{ display: "flex", flexWrap: typeof window !== 'undefined' && window.innerWidth < 600 ? 'wrap' : 'nowrap', gap: typeof window !== 'undefined' && window.innerWidth < 600 ? 12 : 32, marginBottom: typeof window !== 'undefined' && window.innerWidth < 600 ? 8 : 16, justifyContent: 'center' }}>
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-            <div style={{ fontSize: typeof window !== 'undefined' && window.innerWidth < 600 ? 28 : 64, background: "#fff", color: "#333", borderRadius: 8, padding: typeof window !== 'undefined' && window.innerWidth < 600 ? '0 8px' : '0 24px', minWidth: typeof window !== 'undefined' && window.innerWidth < 600 ? 28 : 90, textAlign: "center", fontFamily: "monospace", boxShadow: "0 2px 8px rgba(0,0,0,0.1)" }}>{timeToBirthday.days}</div>
-            <div style={{ color: "#fff", marginTop: 8, fontSize: 20 }}>Days</div>
+            <div style={{ fontSize: typeof window !== 'undefined' && window.innerWidth < 600 ? 28 : 64, background: "#fff", color: "#333", borderRadius: 8, padding: typeof window !== 'undefined' && window.innerWidth < 600 ? '0 8px' : '0 24px', minWidth: typeof window !== 'undefined' && window.innerWidth < 600 ? 18 : 90, textAlign: "center", fontFamily: "monospace", boxShadow: "0 2px 8px rgba(0,0,0,0.1)" }}>{timeToBirthday.days}</div>
+            <div style={{ color: "#fff", marginTop: 8, fontSize: typeof window !== 'undefined' && window.innerWidth < 600 ? 7 : 20 }}>Days</div>
           </div>
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-            <div style={{ fontSize: typeof window !== 'undefined' && window.innerWidth < 600 ? 28 : 64, background: "#fff", color: "#333", borderRadius: 8, padding: typeof window !== 'undefined' && window.innerWidth < 600 ? '0 8px' : '0 24px', minWidth: typeof window !== 'undefined' && window.innerWidth < 600 ? 28 : 90, textAlign: "center", fontFamily: "monospace", boxShadow: "0 2px 8px rgba(0,0,0,0.1)" }}>{timeToBirthday.hours}</div>
-            <div style={{ color: "#fff", marginTop: 8, fontSize: 20 }}>Hours</div>
+            <div style={{ fontSize: typeof window !== 'undefined' && window.innerWidth < 600 ? 28 : 64, background: "#fff", color: "#333", borderRadius: 8, padding: typeof window !== 'undefined' && window.innerWidth < 600 ? '0 8px' : '0 24px', minWidth: typeof window !== 'undefined' && window.innerWidth < 600 ? 18 : 90, textAlign: "center", fontFamily: "monospace", boxShadow: "0 2px 8px rgba(0,0,0,0.1)" }}>{timeToBirthday.hours}</div>
+            <div style={{ color: "#fff", marginTop: 8, fontSize: typeof window !== 'undefined' && window.innerWidth < 600 ? 7 : 20 }}>Hours</div>
           </div>
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-            <div style={{ fontSize: typeof window !== 'undefined' && window.innerWidth < 600 ? 28 : 64, background: "#fff", color: "#333", borderRadius: 8, padding: typeof window !== 'undefined' && window.innerWidth < 600 ? '0 8px' : '0 24px', minWidth: typeof window !== 'undefined' && window.innerWidth < 600 ? 28 : 90, textAlign: "center", fontFamily: "monospace", boxShadow: "0 2px 8px rgba(0,0,0,0.1)" }}>{timeToBirthday.minutes}</div>
-            <div style={{ color: "#fff", marginTop: 8, fontSize: 20 }}>Minutes</div>
+            <div style={{ fontSize: typeof window !== 'undefined' && window.innerWidth < 600 ? 28 : 64, background: "#fff", color: "#333", borderRadius: 8, padding: typeof window !== 'undefined' && window.innerWidth < 600 ? '0 8px' : '0 24px', minWidth: typeof window !== 'undefined' && window.innerWidth < 600 ? 18 : 90, textAlign: "center", fontFamily: "monospace", boxShadow: "0 2px 8px rgba(0,0,0,0.1)" }}>{timeToBirthday.minutes}</div>
+            <div style={{ color: "#fff", marginTop: 8, fontSize: typeof window !== 'undefined' && window.innerWidth < 600 ? 7 : 20 }}>Minutes</div>
           </div>
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-            <div style={{ fontSize: typeof window !== 'undefined' && window.innerWidth < 600 ? 28 : 64, background: "#fff", color: "#333", borderRadius: 8, padding: typeof window !== 'undefined' && window.innerWidth < 600 ? '0 8px' : '0 24px', minWidth: typeof window !== 'undefined' && window.innerWidth < 600 ? 28 : 90, textAlign: "center", fontFamily: "monospace", boxShadow: "0 2px 8px rgba(0,0,0,0.1)" }}>{timeToBirthday.seconds}</div>
-            <div style={{ color: "#fff", marginTop: 8, fontSize: 20 }}>Seconds</div>
+            <div style={{ fontSize: typeof window !== 'undefined' && window.innerWidth < 600 ? 28 : 64, background: "#fff", color: "#333", borderRadius: 8, padding: typeof window !== 'undefined' && window.innerWidth < 600 ? '0 8px' : '0 24px', minWidth: typeof window !== 'undefined' && window.innerWidth < 600 ? 18 : 90, textAlign: "center", fontFamily: "monospace", boxShadow: "0 2px 8px rgba(0,0,0,0.1)" }}>{timeToBirthday.seconds}</div>
+            <div style={{ color: "#fff", marginTop: 8, fontSize: typeof window !== 'undefined' && window.innerWidth < 600 ? 7 : 20 }}>Seconds</div>
           </div>
         </div>
       </div>
